@@ -1,0 +1,27 @@
+
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ body{
+    background-color: #ebebeb !important;  
+    width: 100%;
+    height: 100%;
+    font-size: O.8rem;
+    font-weight: bold;
+    color: black;
+  
+    /* background-image:linear-gradient(-45deg, rgba(34, 194, 119, 0.863),rgba(2, 97, 68, 0.616) ),url('./components/pages/images/compagnieSucriere.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+} 
+
+
+
+
+
+
+
+
+

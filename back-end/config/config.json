@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "ruth",
+    "password": "Ruthndovia@2020",
+    "database": "kwilu_prod",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "ruth",
+    "password": "Ruthndovia@2020",
+    "database": "Kwilu_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "ruth",
+    "password": "Ruthndovia@2020",
+    "database": "Kwilu_dev",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}
