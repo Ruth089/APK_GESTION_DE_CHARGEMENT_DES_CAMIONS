@@ -17,14 +17,14 @@ import { useState } from "react";
 import styled from "styled-components";
 
 const HomePage = (props) => {
-  const poste = localStorage.getItem("poste")
-    ? localStorage.getItem("poste")
-    : "";
-  console.log(poste);
+  // const poste = localStorage.getItem("poste")
+  //   ? localStorage.getItem("poste")
+  //   : "";
+  // console.log(poste);
 
-  if (localStorage.getItem("authorization") === null) {
-    window.location.href = "/";
-  }
+  // if (localStorage.getItem("authorization") === null) {
+  //   window.location.href = "/";
+  // }
 
   const redirection1 = () => "/Form";
   const redirection2 = () => "/CamionsAuParking";
