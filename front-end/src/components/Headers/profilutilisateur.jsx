@@ -63,6 +63,14 @@ const ProfilUtilisateur = () => {
           icon="sign out"
           onClick={deconnect}
         />
+        
+        <Dropdown.Item
+          key="parametre"
+          text="Paramètre"
+          icon="settings"
+          as={Link}
+          to="/Admin"
+        />
       </Dropdown.Menu>
     );
   }

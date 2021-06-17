@@ -30,27 +30,30 @@ const HomePage = (props) => {
   const redirection2 = () => "/CamionsAuParking";
   const redirection3 = () => "/tableauDebord";
 
-  const Acces1 = (props) => {
-    if (poste === "Garde industrielle" || poste === "Directrice commerciale") {
-      return redirection1();
-    } else {
-    }
-  };
+  const Acces1 = (props) => redirection1();
+  // {
+  //   if (poste === "Garde industrielle" || poste === "Directrice commerciale") {
+  //     return redirection1();
+  //   } else {
+  //   }
+  // };
 
-  const Acces2 = (props) => {
-    if (
-      poste === "Responsable de magasin" ||
-      poste === "Directrice commerciale"
-    ) {
-      return redirection2();
-    }
-  };
+  const Acces2 = (props) => redirection2();
+  // {
+  //   if (
+  //     poste === "Responsable de magasin" ||
+  //     poste === "Directrice commerciale"
+  //   ) {
+  //     return redirection2();
+  //   }
+  // };
 
-  const Acces3 = (props) => {
-    if (poste === "Directrice commerciale") {
-      return redirection3();
-    }
-  };
+  const Acces3 = (props) => redirection3();
+  // {
+  //   if (poste === "Directrice commerciale") {
+  //     return redirection3();
+  //   }
+  // };
 
   return (
     <>
